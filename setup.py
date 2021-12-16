@@ -62,7 +62,7 @@ def get_extensions():
 
 
 setup(
-    name="bottom-up-attention.pytorch",
+    name="bottom_up_attention_pytorch",
     packages=find_packages(exclude=("configs", "tests")),
     python_requires=">=3.6",
     ext_modules=get_extensions(),
